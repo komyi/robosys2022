@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+# © 2022 Yuki Komatsu
 
 import sys
 
-ans = 0           
-
+ans = 0
 for line in sys.stdin:
 	try:
 		ans += int(line)
